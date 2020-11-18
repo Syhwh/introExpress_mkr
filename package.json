@@ -1,17 +1,18 @@
 {
-  "name": "MKR_11_12",
+  "name": "mkr_11_17",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"

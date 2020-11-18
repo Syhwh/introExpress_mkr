@@ -1,0 +1,14 @@
+<form action="/users" method="POST" enctype="application/x-www-form-urlencoded">
+  <input type="text" name="name">
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+<ul>
+  {{#each db }}
+
+  <li> {{this.name}} </li>
+
+  {{/each}}
+</ul>
